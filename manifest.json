@@ -1,0 +1,10 @@
+{
+    "name": "Corona Updates",
+    "description": "Get latest reliable corona updaate of your country",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    }
+}

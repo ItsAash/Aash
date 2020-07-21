@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="font-awesome.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.min.js"></script>
+    <script src="main.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="main-division container">
+        <div class="menu">
+            <div class="menu-btn" id="menu-btn"><i class="fa fa-bars" id="menu-icon" aria-hidden="true"></i></div>
+            <ul class="hidden">
+                <li><i class="fa fa-globe" aria-hidden="true" id="worldBtn"></i></li>
+                <li><i class="fa fa-home" aria-hidden="true" id="homeBtn"></i></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="country-name" id="country" style="text-align: left;">Loading...</div>
+
+            <div class="card mt-3">
+                <div class="card-header mt">Total No. Of Cases</div>
+                <div class="card-body" id="confirmedCases">Loading...</div>
+            </div>
+
+            <div class="card mt-3">
+                <div class="card-header mt">Total No. Of Active Cases</div>
+                <div class="card-body" id="ActiveCases">Loading...</div>
+            </div>
+
+            <div class="card mt-3">
+                <div class="card-header">Total No. Of Recovery</div>
+                <div class="card-body" id="recovery">Loading...</div>
+            </div>
+
+            <div class="card mt-3">
+                <div class="card-header">Total No. Of Deaths</div>
+                <div class="card-body" id="deaths">Loading...</div>
+            </div>
+
+            <div class="createdBy mt-3" style="text-align: center;">This Extension Was Made By MIN Aash</div>
+
+        </div>
+
+        <div class="search-division">
+            <input type="text" placeholder="Search.." id="search">
+            <button type="submit" id="search-btn"><i class="fa fa-search"></i></button>
+            <div id="search-result"></div>
+        </div>
+
+    </div>
+</body>
+
+</html>
